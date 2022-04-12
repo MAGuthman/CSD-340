@@ -4,7 +4,7 @@ html, h1 {
 }
 
 #movies {
-    width:45%;
+    width: 45%;
     font-family: 'Oswald', Verdana, Arial, sans-serif;
     float: left;
     font-weight: 300;
@@ -14,7 +14,7 @@ html, h1 {
     
 }
 #learned {
-    width:45%;
+    width: 45%;
     font-family: 'Oswald', Verdana, Arial, sans-serif;
     float: right;
     font-weight: 300;
@@ -24,18 +24,18 @@ html, h1 {
     
 }
 #link {
-    width:100%;
-    margin-top:60%;
+    width: 100%;
+    margin-top: 60%;
     float: right;
     margin-bottom: 20px;
 }
 
-#link a {
+#last a {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
     text-decoration: none;
 }
 
-#link a:hover{
+#last a:hover{
     text-decoration: underline;
 }
 h3 {
