@@ -3,7 +3,7 @@ html, h1 {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
 }
 
-div movies {
+#movies {
     width:45%;
     font-family: 'Oswald', Verdana, Arial, sans-serif;
     float: left;
@@ -13,7 +13,7 @@ div movies {
     padding: 10px
     
 }
-div learned {
+#learned {
     width:45%;
     font-family: 'Oswald', Verdana, Arial, sans-serif;
     float: right;
@@ -23,19 +23,19 @@ div learned {
     padding: 10px;
     
 }
-div link {
+#link {
     width:100%;
     margin-top:60%;
     float: right;
     margin-bottom: 20px;
 }
 
-div link a {
+#link a {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
     text-decoration: none;
 }
 
-div link a:hover{
+#link a:hover{
     text-decoration: underline;
 }
 h3 {
