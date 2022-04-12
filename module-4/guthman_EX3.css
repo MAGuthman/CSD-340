@@ -23,6 +23,13 @@ html, h1 {
     padding: 10px;
     
 }
+ul.a {
+    list-style-type: upper-roman;
+    text-align: left;
+}
+ul.b{
+    text-align: left;
+}
 #last {
     width: 100%;
     margin-top: 60%;
