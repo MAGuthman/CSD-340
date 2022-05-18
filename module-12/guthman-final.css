@@ -46,6 +46,10 @@ header {
     font-size: 40px;
     border-bottom: 5px solid #664147;
     border-top: 5px solid #664147;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .title {
@@ -60,10 +64,6 @@ header {
     font-family: 'Barlow', sans-serif;
     font-weight: 200;
     font-size: 20px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 2%;
-    margin-right: 2%;
     text-align: left;
 }
 
