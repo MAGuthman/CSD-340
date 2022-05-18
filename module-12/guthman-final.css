@@ -1,0 +1,128 @@
+html {
+    box-sizing: border-box;
+    background-color: #2F9C95;
+}
+
+body {
+    font-family: 'Anton', sans-serif;
+}
+
+header {
+    color: #E5f9E0;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #664147;
+    text-align: center;
+}
+
+.navbar a {
+    color: #E5f9E0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.navbar a:hover {
+    background-color: #2F9C95;
+    color: #664147;
+}
+
+.sections {
+    text-align: center;
+    color: #E5f9E0;
+}
+
+.sections h1 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    border-bottom: 5px solid #664147;
+    border-top: 5px solid #664147;
+}
+
+.title {
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+    color: #E5f9E0;
+    text-align: center;
+    font-weight: 400;
+}
+
+.content {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 95%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.form {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.form-field {
+    padding: 20px;
+    color: #E5f9E0;
+}
+
+.btn {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px 32px;
+    color: #000;
+}
+
+.input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    background-color: #664147;
+    color: #2F9C95;
+    font-family: 'Anton', sans-serif;
+}
+
+.btn-primary:hover {
+    background-color: #E5f9E0;
+    color: #2F9C95;
+}
+
+.full-width {
+    width: 100%;
+}
